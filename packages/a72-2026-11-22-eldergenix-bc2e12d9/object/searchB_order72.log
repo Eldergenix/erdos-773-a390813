@@ -1,0 +1,82 @@
+2026-11-22T10:46:15+00:00 supervisor_pid=33119 worker_pid=33120 seconds=20100 argv=['/usr/bin/perl', '-e', 'alarm shift; exec @ARGV', '20100', 'code/independent/difference_search', '72', '100000', '0', '5']
+2026-11-22T10:46:16+00:00 nice unavailable: [Errno 1] Operation not permitted; using inherited priority
+2026-11-22T10:46:16Z order=72 differences=1607 clauses3=23 clauses4=762 pid=33120
+2026-11-22T10:46:16Z witness size=33 sums=561 roots= 2 3 4 5 7 8 13 14 15 18 25 42 44 45 48 50 53 54 56 57 58 59 60 61 62 63 65 67 68 69 70 71 72
+2026-11-22T10:46:16Z begin target=34 part=0/32 roots_chosen=0
+2026-11-22T10:47:16Z progress calls=16252928 selections=16252927 need=23 elapsed=60.1s
+2026-11-22T10:48:16Z progress calls=24641536 selections=24641535 need=28 elapsed=120.3s
+2026-11-22T10:48:27Z end target=34 part=0/32 answer=no calls=25696680 wall=131.2660s
+2026-11-22T10:48:27Z begin target=34 part=1/32 roots_chosen=1
+2026-11-22T10:49:18Z progress calls=30408704 selections=30408702 need=21 elapsed=181.6s
+2026-11-22T10:50:05Z end target=34 part=1/32 answer=no calls=9762174 wall=98.1441s
+2026-11-22T10:50:05Z begin target=34 part=2/32 roots_chosen=1
+2026-11-22T10:50:19Z progress calls=37224448 selections=37224445 need=23 elapsed=243.5s
+2026-11-22T10:50:53Z end target=34 part=2/32 answer=no calls=11915525 wall=47.0965s
+2026-11-22T10:50:53Z begin target=34 part=3/32 roots_chosen=2
+2026-11-22T10:51:03Z end target=34 part=3/32 answer=no calls=4053520 wall=10.3108s
+2026-11-22T10:51:03Z begin target=34 part=4/32 roots_chosen=1
+2026-11-22T10:51:19Z progress calls=57933824 selections=57933819 need=17 elapsed=303.6s
+2026-11-22T10:51:29Z end target=34 part=4/32 answer=no calls=10056995 wall=25.9349s
+2026-11-22T10:51:29Z begin target=34 part=5/32 roots_chosen=2
+2026-11-22T10:51:37Z end target=34 part=5/32 answer=no calls=3393009 wall=8.3983s
+2026-11-22T10:51:37Z begin target=34 part=6/32 roots_chosen=2
+2026-11-22T10:51:43Z end target=34 part=6/32 answer=no calls=2596329 wall=6.2474s
+2026-11-22T10:51:43Z begin target=34 part=7/32 roots_chosen=3
+2026-11-22T10:51:46Z end target=34 part=7/32 answer=no calls=971036 wall=2.1932s
+2026-11-22T10:51:46Z begin target=34 part=8/32 roots_chosen=1
+2026-11-22T10:52:09Z end target=34 part=8/32 answer=no calls=9356106 wall=23.6269s
+2026-11-22T10:52:09Z begin target=34 part=9/32 roots_chosen=2
+2026-11-22T10:52:18Z end target=34 part=9/32 answer=no calls=3666435 wall=8.7811s
+2026-11-22T10:52:18Z begin target=34 part=10/32 roots_chosen=2
+2026-11-22T10:52:21Z progress calls=82313216 selections=82313205 need=23 elapsed=365.0s
+2026-11-22T10:52:37Z end target=34 part=10/32 answer=no calls=3477516 wall=18.8687s
+2026-11-22T10:52:37Z begin target=34 part=11/32 roots_chosen=3
+2026-11-22T10:52:41Z end target=34 part=11/32 answer=no calls=707898 wall=4.5166s
+2026-11-22T10:52:41Z begin target=34 part=12/32 roots_chosen=2
+2026-11-22T10:53:02Z end target=34 part=12/32 answer=no calls=2739312 wall=20.0554s
+2026-11-22T10:53:02Z begin target=34 part=13/32 roots_chosen=3
+2026-11-22T10:53:09Z end target=34 part=13/32 answer=no calls=993389 wall=7.2277s
+2026-11-22T10:53:09Z begin target=34 part=14/32 roots_chosen=3
+2026-11-22T10:53:11Z end target=34 part=14/32 answer=no calls=321769 wall=2.3729s
+2026-11-22T10:53:11Z begin target=34 part=15/32 roots_chosen=4
+2026-11-22T10:53:12Z end target=34 part=15/32 answer=no calls=93190 wall=0.7555s
+2026-11-22T10:53:12Z begin target=34 part=16/32 roots_chosen=1
+2026-11-22T10:53:21Z progress calls=90963968 selections=90963951 need=19 elapsed=425.5s
+2026-11-22T10:54:22Z progress calls=98566144 selections=98566127 need=23 elapsed=486.1s
+2026-11-22T10:54:41Z end target=34 part=16/32 answer=no calls=10939558 wall=88.9821s
+2026-11-22T10:54:41Z begin target=34 part=17/32 roots_chosen=2
+2026-11-22T10:54:57Z end target=34 part=17/32 answer=no calls=1808104 wall=16.4160s
+2026-11-22T10:54:57Z begin target=34 part=18/32 roots_chosen=2
+2026-11-22T10:55:23Z progress calls=105381888 selections=105381869 need=26 elapsed=546.9s
+2026-11-22T10:55:36Z end target=34 part=18/32 answer=no calls=4196236 wall=38.8366s
+2026-11-22T10:55:36Z begin target=34 part=19/32 roots_chosen=3
+2026-11-22T10:55:42Z end target=34 part=19/32 answer=no calls=655898 wall=6.3428s
+2026-11-22T10:55:42Z begin target=34 part=20/32 roots_chosen=2
+2026-11-22T10:56:24Z progress calls=112197632 selections=112197611 need=23 elapsed=608.5s
+2026-11-22T10:56:29Z end target=34 part=20/32 answer=no calls=5358648 wall=46.9915s
+2026-11-22T10:56:29Z begin target=34 part=21/32 roots_chosen=3
+2026-11-22T10:56:38Z end target=34 part=21/32 answer=no calls=1004404 wall=8.6571s
+2026-11-22T10:56:38Z begin target=34 part=22/32 roots_chosen=3
+2026-11-22T10:56:51Z end target=34 part=22/32 answer=no calls=1547480 wall=12.9690s
+2026-11-22T10:56:51Z begin target=34 part=23/32 roots_chosen=4
+2026-11-22T10:56:54Z end target=34 part=23/32 answer=no calls=313604 wall=2.6318s
+2026-11-22T10:56:54Z begin target=34 part=24/32 roots_chosen=2
+2026-11-22T10:57:19Z end target=34 part=24/32 answer=no calls=3935731 wall=25.6629s
+2026-11-22T10:57:19Z begin target=34 part=25/32 roots_chosen=3
+2026-11-22T10:57:21Z end target=34 part=25/32 answer=no calls=727462 wall=2.0730s
+2026-11-22T10:57:21Z begin target=34 part=26/32 roots_chosen=3
+2026-11-22T10:57:25Z progress calls=121634816 selections=121634789 need=25 elapsed=669.1s
+2026-11-22T10:57:25Z end target=34 part=26/32 answer=no calls=1455054 wall=3.8398s
+2026-11-22T10:57:25Z begin target=34 part=27/32 roots_chosen=4
+2026-11-22T10:57:26Z end target=34 part=27/32 answer=no calls=142986 wall=0.4038s
+2026-11-22T10:57:26Z begin target=34 part=28/32 roots_chosen=3
+2026-11-22T10:57:30Z end target=34 part=28/32 answer=no calls=1415491 wall=3.9128s
+2026-11-22T10:57:30Z begin target=34 part=29/32 roots_chosen=4
+2026-11-22T10:57:30Z end target=34 part=29/32 answer=no calls=319788 wall=0.8545s
+2026-11-22T10:57:30Z begin target=34 part=30/32 roots_chosen=4
+2026-11-22T10:57:31Z end target=34 part=30/32 answer=no calls=252389 wall=0.6792s
+2026-11-22T10:57:31Z begin target=34 part=31/32 roots_chosen=5
+2026-11-22T10:57:31Z end target=34 part=31/32 answer=no calls=40978 wall=0.1051s
+2026-11-22T10:57:31Z target=34 answer=no parts=[0,32)/32 calls=123914694 selections=123914662 pack_cuts=50429856 size_cuts=0 elapsed=675.3092s
+maximum=33
+2026-11-22T10:57:31+00:00 worker_pid=33120 exit=0 wall_s=675.756604 user_s=162.620268 sys_s=1.045538 maxrss_bytes=2342912 maxrss_MiB=2.234

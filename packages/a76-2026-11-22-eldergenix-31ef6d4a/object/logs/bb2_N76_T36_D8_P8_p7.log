@@ -1,0 +1,2 @@
+supports=901 triples=24 quads=877 nonminimal_pairs=0
+EXHAUSTED N=76 T=36 split=8 parts=8 part=7 nodes=35623261 leaves_at_split=88 time=389s

@@ -1,0 +1,2 @@
+target_id,cell,value,table_value,table_fetched_utc,file,sha256
+erdos-773-sidon-squares-next-term,"A390813 a(72)",33,absent (b-file ends at n=68; a(72) known only as 33 or 34),2026-11-22T11:48:28Z,object/a72.json,bc2e12d98adffef836392c649e1cea58fc64b8b5c6a30e5dfef4c92cd6e71a93

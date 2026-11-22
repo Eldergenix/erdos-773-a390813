@@ -1,0 +1,10 @@
+k=67 T=32 FOUND -> a(67)=32  15:40:00
+k=68 T=33 NONE in all 3 parts -> a(68)=32  15:41:25
+k=69 T=33 NONE in all 3 parts -> a(69)=32  15:43:43
+k=70 T=33 FOUND -> a(70)=33  15:44:05
+k=71 T=34 NONE in all 3 parts -> a(71)=33  15:45:17
+k=72 T=34 NONE in all 3 parts -> a(72)=33  15:49:02
+k=73 T=34 FOUND -> a(73)=34  15:50:42
+k=74 T=35 NONE in all 3 parts -> a(74)=34  15:52:29
+k=75 T=35 FOUND -> a(75)=35  15:54:47
+k=76 T=36 NONE in all 3 parts -> a(76)=35  15:57:01

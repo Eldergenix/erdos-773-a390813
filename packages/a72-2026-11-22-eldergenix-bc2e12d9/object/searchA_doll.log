@@ -1,0 +1,544 @@
+start pid=28696 max_n=72 generated_supports=785 word_bits=64
+cube n=1 target=1 mask=0 outcome=SAT nodes=1
+target n=1 k=1 outcome=SAT cubes=1 fixed_conflict=0 nodes=1 splits=0 cardinality=0 prefix=0 clique=0 clique_prefix=0 accepts=1 seconds=0.000
+level n=1 a=1 with_n=1 without_n=0 status=required triples=0 quads=0 nodes=1 seconds=0.000 elapsed=0.000
+cube n=2 target=2 mask=0 outcome=SAT nodes=1
+target n=2 k=2 outcome=SAT cubes=1 fixed_conflict=0 nodes=1 splits=0 cardinality=0 prefix=0 clique=0 clique_prefix=0 accepts=1 seconds=0.000
+level n=2 a=2 with_n=2 without_n=1 status=required triples=0 quads=0 nodes=1 seconds=0.000 elapsed=0.000
+cube n=3 target=3 mask=0 outcome=SAT nodes=2
+target n=3 k=3 outcome=SAT cubes=1 fixed_conflict=0 nodes=2 splits=1 cardinality=0 prefix=0 clique=0 clique_prefix=0 accepts=1 seconds=0.000
+level n=3 a=3 with_n=3 without_n=2 status=required triples=0 quads=0 nodes=2 seconds=0.000 elapsed=0.000
+cube n=4 target=4 mask=0 outcome=SAT nodes=3
+target n=4 k=4 outcome=SAT cubes=1 fixed_conflict=0 nodes=3 splits=2 cardinality=0 prefix=0 clique=0 clique_prefix=0 accepts=1 seconds=0.000
+level n=4 a=4 with_n=4 without_n=3 status=required triples=0 quads=0 nodes=3 seconds=0.000 elapsed=0.000
+cube n=5 target=5 mask=0 outcome=SAT nodes=4
+target n=5 k=5 outcome=SAT cubes=1 fixed_conflict=0 nodes=4 splits=3 cardinality=0 prefix=0 clique=0 clique_prefix=0 accepts=1 seconds=0.000
+level n=5 a=5 with_n=5 without_n=4 status=required triples=0 quads=0 nodes=4 seconds=0.000 elapsed=0.000
+cube n=6 target=6 mask=0 outcome=SAT nodes=5
+target n=6 k=6 outcome=SAT cubes=1 fixed_conflict=0 nodes=5 splits=4 cardinality=0 prefix=0 clique=0 clique_prefix=0 accepts=1 seconds=0.000
+level n=6 a=6 with_n=6 without_n=5 status=required triples=0 quads=0 nodes=5 seconds=0.000 elapsed=0.000
+cube n=7 target=7 mask=0 outcome=UNSAT nodes=1
+target n=7 k=7 outcome=UNSAT cubes=1 fixed_conflict=0 nodes=1 splits=0 cardinality=0 prefix=0 clique=1 clique_prefix=0 accepts=0 seconds=0.000
+cube n=7 target=6 mask=0 outcome=SAT nodes=5
+target n=7 k=6 outcome=SAT cubes=1 fixed_conflict=0 nodes=5 splits=4 cardinality=0 prefix=0 clique=0 clique_prefix=0 accepts=1 seconds=0.000
+level n=7 a=6 with_n=6 without_n=6 status=optional triples=1 quads=0 nodes=6 seconds=0.000 elapsed=0.000
+cube n=8 target=7 mask=0 outcome=SAT nodes=6
+target n=8 k=7 outcome=SAT cubes=1 fixed_conflict=0 nodes=6 splits=5 cardinality=0 prefix=0 clique=0 clique_prefix=0 accepts=1 seconds=0.000
+level n=8 a=7 with_n=7 without_n=6 status=required triples=1 quads=1 nodes=6 seconds=0.000 elapsed=0.000
+cube n=9 target=8 mask=0 outcome=SAT nodes=9
+target n=9 k=8 outcome=SAT cubes=1 fixed_conflict=0 nodes=9 splits=7 cardinality=0 prefix=0 clique=1 clique_prefix=0 accepts=1 seconds=0.000
+level n=9 a=8 with_n=8 without_n=7 status=required triples=1 quads=2 nodes=9 seconds=0.000 elapsed=0.000
+cube n=10 target=9 mask=0 outcome=SAT nodes=10
+target n=10 k=9 outcome=SAT cubes=1 fixed_conflict=0 nodes=10 splits=8 cardinality=0 prefix=0 clique=1 clique_prefix=0 accepts=1 seconds=0.000
+level n=10 a=9 with_n=9 without_n=8 status=required triples=1 quads=2 nodes=10 seconds=0.000 elapsed=0.000
+cube n=11 target=10 mask=0 outcome=UNSAT nodes=5
+target n=11 k=10 outcome=UNSAT cubes=1 fixed_conflict=0 nodes=5 splits=2 cardinality=0 prefix=2 clique=1 clique_prefix=0 accepts=0 seconds=0.000
+cube n=11 target=9 mask=0 outcome=SAT nodes=10
+target n=11 k=9 outcome=SAT cubes=1 fixed_conflict=0 nodes=10 splits=8 cardinality=0 prefix=0 clique=1 clique_prefix=0 accepts=1 seconds=0.000
+level n=11 a=9 with_n=9 without_n=9 status=optional triples=1 quads=4 nodes=15 seconds=0.000 elapsed=0.000
+cube n=12 target=10 mask=0 outcome=UNSAT nodes=21
+target n=12 k=10 outcome=UNSAT cubes=1 fixed_conflict=0 nodes=21 splits=10 cardinality=1 prefix=5 clique=5 clique_prefix=0 accepts=0 seconds=0.000
+cube n=12 target=9 mask=0 outcome=SAT nodes=8
+target n=12 k=9 outcome=SAT cubes=1 fixed_conflict=0 nodes=8 splits=7 cardinality=0 prefix=0 clique=0 clique_prefix=0 accepts=1 seconds=0.000
+level n=12 a=9 with_n=9 without_n=9 status=optional triples=1 quads=5 nodes=29 seconds=0.000 elapsed=0.000
+cube n=13 target=10 mask=0 outcome=SAT nodes=13
+target n=13 k=10 outcome=SAT cubes=1 fixed_conflict=0 nodes=13 splits=10 cardinality=0 prefix=0 clique=2 clique_prefix=0 accepts=1 seconds=0.000
+level n=13 a=10 with_n=10 without_n=9 status=required triples=1 quads=7 nodes=13 seconds=0.000 elapsed=0.000
+cube n=14 target=11 mask=0 outcome=UNSAT nodes=15
+target n=14 k=11 outcome=UNSAT cubes=1 fixed_conflict=0 nodes=15 splits=7 cardinality=0 prefix=2 clique=6 clique_prefix=0 accepts=0 seconds=0.000
+cube n=14 target=10 mask=0 outcome=SAT nodes=17
+target n=14 k=10 outcome=SAT cubes=1 fixed_conflict=0 nodes=17 splits=12 cardinality=0 prefix=0 clique=4 clique_prefix=0 accepts=1 seconds=0.000
+level n=14 a=10 with_n=10 without_n=10 status=optional triples=2 quads=9 nodes=32 seconds=0.000 elapsed=0.000
+cube n=15 target=11 mask=0 outcome=SAT nodes=44
+target n=15 k=11 outcome=SAT cubes=1 fixed_conflict=0 nodes=44 splits=26 cardinality=2 prefix=1 clique=14 clique_prefix=0 accepts=1 seconds=0.000
+level n=15 a=11 with_n=11 without_n=10 status=required triples=2 quads=10 nodes=44 seconds=0.000 elapsed=0.000
+cube n=16 target=12 mask=0 outcome=SAT nodes=41
+target n=16 k=12 outcome=SAT cubes=1 fixed_conflict=0 nodes=41 splits=25 cardinality=3 prefix=0 clique=12 clique_prefix=0 accepts=1 seconds=0.000
+level n=16 a=12 with_n=12 without_n=11 status=required triples=2 quads=12 nodes=41 seconds=0.000 elapsed=0.000
+cube n=17 target=13 mask=0 outcome=UNSAT nodes=13
+target n=17 k=13 outcome=UNSAT cubes=1 fixed_conflict=0 nodes=13 splits=6 cardinality=0 prefix=3 clique=4 clique_prefix=0 accepts=0 seconds=0.000
+cube n=17 target=12 mask=0 outcome=SAT nodes=15
+target n=17 k=12 outcome=SAT cubes=1 fixed_conflict=0 nodes=15 splits=12 cardinality=0 prefix=0 clique=2 clique_prefix=0 accepts=1 seconds=0.000
+level n=17 a=12 with_n=12 without_n=12 status=optional triples=3 quads=15 nodes=28 seconds=0.000 elapsed=0.000
+cube n=18 target=13 mask=0 outcome=SAT nodes=34
+target n=18 k=13 outcome=SAT cubes=1 fixed_conflict=0 nodes=34 splits=22 cardinality=0 prefix=0 clique=11 clique_prefix=0 accepts=1 seconds=0.000
+level n=18 a=13 with_n=13 without_n=12 status=required triples=3 quads=18 nodes=34 seconds=0.000 elapsed=0.000
+cube n=19 target=14 mask=0 outcome=UNSAT nodes=33
+target n=19 k=14 outcome=UNSAT cubes=1 fixed_conflict=0 nodes=33 splits=16 cardinality=2 prefix=6 clique=9 clique_prefix=0 accepts=0 seconds=0.000
+cube n=19 target=13 mask=0 outcome=SAT nodes=54
+target n=19 k=13 outcome=SAT cubes=1 fixed_conflict=0 nodes=54 splits=32 cardinality=3 prefix=1 clique=17 clique_prefix=0 accepts=1 seconds=0.000
+level n=19 a=13 with_n=13 without_n=13 status=optional triples=3 quads=23 nodes=87 seconds=0.000 elapsed=0.000
+cube n=20 target=14 mask=0 outcome=UNSAT nodes=167
+target n=20 k=14 outcome=UNSAT cubes=1 fixed_conflict=0 nodes=167 splits=83 cardinality=11 prefix=16 clique=57 clique_prefix=0 accepts=0 seconds=0.000
+cube n=20 target=13 mask=0 outcome=SAT nodes=20
+target n=20 k=13 outcome=SAT cubes=1 fixed_conflict=0 nodes=20 splits=15 cardinality=0 prefix=0 clique=4 clique_prefix=0 accepts=1 seconds=0.000
+level n=20 a=13 with_n=13 without_n=13 status=optional triples=3 quads=26 nodes=187 seconds=0.000 elapsed=0.000
+cube n=21 target=14 mask=0 outcome=SAT nodes=51
+target n=21 k=14 outcome=SAT cubes=1 fixed_conflict=0 nodes=51 splits=31 cardinality=2 prefix=0 clique=17 clique_prefix=0 accepts=1 seconds=0.000
+level n=21 a=14 with_n=14 without_n=13 status=required triples=4 quads=29 nodes=51 seconds=0.000 elapsed=0.000
+cube n=22 target=15 mask=0 outcome=UNSAT nodes=197
+target n=22 k=15 outcome=UNSAT cubes=1 fixed_conflict=0 nodes=197 splits=98 cardinality=6 prefix=19 clique=74 clique_prefix=0 accepts=0 seconds=0.000
+cube n=22 target=14 mask=0 outcome=SAT nodes=31
+target n=22 k=14 outcome=SAT cubes=1 fixed_conflict=0 nodes=31 splits=21 cardinality=2 prefix=0 clique=7 clique_prefix=0 accepts=1 seconds=0.000
+level n=22 a=14 with_n=14 without_n=14 status=optional triples=4 quads=33 nodes=228 seconds=0.000 elapsed=0.000
+cube n=23 target=15 mask=0 outcome=UNSAT nodes=771
+target n=23 k=15 outcome=UNSAT cubes=1 fixed_conflict=0 nodes=771 splits=385 cardinality=41 prefix=39 clique=306 clique_prefix=0 accepts=0 seconds=0.000
+cube n=23 target=14 mask=0 outcome=SAT nodes=23
+target n=23 k=14 outcome=SAT cubes=1 fixed_conflict=0 nodes=23 splits=17 cardinality=2 prefix=0 clique=3 clique_prefix=0 accepts=1 seconds=0.000
+level n=23 a=14 with_n=14 without_n=14 status=optional triples=5 quads=39 nodes=794 seconds=0.000 elapsed=0.000
+cube n=24 target=15 mask=0 outcome=SAT nodes=24
+target n=24 k=15 outcome=SAT cubes=1 fixed_conflict=0 nodes=24 splits=18 cardinality=1 prefix=0 clique=4 clique_prefix=0 accepts=1 seconds=0.000
+level n=24 a=15 with_n=15 without_n=14 status=required triples=5 quads=43 nodes=24 seconds=0.000 elapsed=0.000
+cube n=25 target=16 mask=0 outcome=SAT nodes=49
+target n=25 k=16 outcome=SAT cubes=1 fixed_conflict=0 nodes=49 splits=31 cardinality=4 prefix=0 clique=13 clique_prefix=0 accepts=1 seconds=0.000
+level n=25 a=16 with_n=16 without_n=15 status=required triples=5 quads=48 nodes=49 seconds=0.000 elapsed=0.000
+cube n=26 target=17 mask=0 outcome=SAT nodes=40
+target n=26 k=17 outcome=SAT cubes=1 fixed_conflict=0 nodes=40 splits=27 cardinality=2 prefix=0 clique=10 clique_prefix=0 accepts=1 seconds=0.000
+level n=26 a=17 with_n=17 without_n=16 status=required triples=5 quads=54 nodes=40 seconds=0.000 elapsed=0.000
+cube n=27 target=18 mask=0 outcome=UNSAT nodes=145
+target n=27 k=18 outcome=UNSAT cubes=1 fixed_conflict=0 nodes=145 splits=72 cardinality=1 prefix=10 clique=62 clique_prefix=0 accepts=0 seconds=0.000
+cube n=27 target=17 mask=0 outcome=SAT nodes=166
+target n=27 k=17 outcome=SAT cubes=1 fixed_conflict=0 nodes=166 splits=90 cardinality=12 prefix=1 clique=62 clique_prefix=0 accepts=1 seconds=0.000
+level n=27 a=17 with_n=17 without_n=17 status=optional triples=5 quads=60 nodes=311 seconds=0.000 elapsed=0.001
+cube n=28 target=18 mask=0 outcome=UNSAT nodes=615
+target n=28 k=18 outcome=UNSAT cubes=1 fixed_conflict=0 nodes=615 splits=307 cardinality=5 prefix=46 clique=257 clique_prefix=0 accepts=0 seconds=0.000
+cube n=28 target=17 mask=0 outcome=SAT nodes=324
+target n=28 k=17 outcome=SAT cubes=1 fixed_conflict=0 nodes=324 splits=169 cardinality=32 prefix=0 clique=122 clique_prefix=0 accepts=1 seconds=0.000
+level n=28 a=17 with_n=17 without_n=17 status=optional triples=6 quads=65 nodes=939 seconds=0.000 elapsed=0.001
+cube n=29 target=18 mask=0 outcome=UNSAT nodes=2095
+target n=29 k=18 outcome=UNSAT cubes=1 fixed_conflict=0 nodes=2095 splits=1047 cardinality=28 prefix=138 clique=867 clique_prefix=15 accepts=0 seconds=0.000
+cube n=29 target=17 mask=0 outcome=SAT nodes=316
+target n=29 k=17 outcome=SAT cubes=1 fixed_conflict=0 nodes=316 splits=165 cardinality=34 prefix=0 clique=116 clique_prefix=0 accepts=1 seconds=0.000
+level n=29 a=17 with_n=17 without_n=17 status=optional triples=6 quads=74 nodes=2411 seconds=0.000 elapsed=0.001
+cube n=30 target=18 mask=0 outcome=SAT nodes=827
+target n=30 k=18 outcome=SAT cubes=1 fixed_conflict=0 nodes=827 splits=421 cardinality=48 prefix=3 clique=354 clique_prefix=0 accepts=1 seconds=0.000
+level n=30 a=18 with_n=18 without_n=17 status=required triples=6 quads=79 nodes=827 seconds=0.000 elapsed=0.001
+cube n=31 target=19 mask=0 outcome=SAT nodes=990
+target n=31 k=19 outcome=SAT cubes=1 fixed_conflict=0 nodes=990 splits=503 cardinality=34 prefix=42 clique=405 clique_prefix=5 accepts=1 seconds=0.000
+level n=31 a=19 with_n=19 without_n=18 status=required triples=7 quads=87 nodes=990 seconds=0.000 elapsed=0.001
+cube n=32 target=20 mask=0 outcome=UNSAT nodes=571
+target n=32 k=20 outcome=UNSAT cubes=1 fixed_conflict=0 nodes=571 splits=285 cardinality=0 prefix=29 clique=256 clique_prefix=1 accepts=0 seconds=0.000
+cube n=32 target=19 mask=0 outcome=UNSAT nodes=9627
+target n=32 k=19 outcome=UNSAT cubes=1 fixed_conflict=0 nodes=9627 splits=4813 cardinality=176 prefix=448 clique=4166 clique_prefix=24 accepts=0 seconds=0.000
+cube n=32 target=18 mask=0 outcome=SAT nodes=105
+target n=32 k=18 outcome=SAT cubes=1 fixed_conflict=0 nodes=105 splits=60 cardinality=5 prefix=0 clique=39 clique_prefix=0 accepts=1 seconds=0.000
+level n=32 a=19 with_n=18 without_n=19 status=excluded triples=7 quads=96 nodes=10303 seconds=0.001 elapsed=0.001
+cube n=33 target=20 mask=0 outcome=UNSAT nodes=4293
+target n=33 k=20 outcome=UNSAT cubes=1 fixed_conflict=0 nodes=4293 splits=2146 cardinality=53 prefix=220 clique=1866 clique_prefix=8 accepts=0 seconds=0.000
+cube n=33 target=19 mask=0 outcome=SAT nodes=82
+target n=33 k=19 outcome=SAT cubes=1 fixed_conflict=0 nodes=82 splits=49 cardinality=2 prefix=0 clique=30 clique_prefix=0 accepts=1 seconds=0.000
+level n=33 a=19 with_n=19 without_n=19 status=optional triples=7 quads=105 nodes=4375 seconds=0.000 elapsed=0.002
+cube n=34 target=20 mask=0 outcome=SAT nodes=533
+target n=34 k=20 outcome=SAT cubes=1 fixed_conflict=0 nodes=533 splits=275 cardinality=22 prefix=0 clique=235 clique_prefix=0 accepts=1 seconds=0.000
+level n=34 a=20 with_n=20 without_n=19 status=required triples=8 quads=114 nodes=533 seconds=0.000 elapsed=0.002
+cube n=35 target=21 mask=0 outcome=UNSAT nodes=5433
+target n=35 k=21 outcome=UNSAT cubes=1 fixed_conflict=0 nodes=5433 splits=2716 cardinality=41 prefix=295 clique=2370 clique_prefix=11 accepts=0 seconds=0.000
+cube n=35 target=20 mask=0 outcome=SAT nodes=263
+target n=35 k=20 outcome=SAT cubes=1 fixed_conflict=0 nodes=263 splits=140 cardinality=13 prefix=2 clique=107 clique_prefix=0 accepts=1 seconds=0.000
+level n=35 a=20 with_n=20 without_n=20 status=optional triples=9 quads=122 nodes=5696 seconds=0.000 elapsed=0.002
+cube n=36 target=21 mask=0 outcome=UNSAT nodes=20387
+target n=36 k=21 outcome=UNSAT cubes=1 fixed_conflict=0 nodes=20387 splits=10193 cardinality=132 prefix=860 clique=9174 clique_prefix=28 accepts=0 seconds=0.001
+cube n=36 target=20 mask=0 outcome=SAT nodes=249
+target n=36 k=20 outcome=SAT cubes=1 fixed_conflict=0 nodes=249 splits=133 cardinality=12 prefix=2 clique=101 clique_prefix=0 accepts=1 seconds=0.000
+level n=36 a=20 with_n=20 without_n=20 status=optional triples=9 quads=129 nodes=20636 seconds=0.001 elapsed=0.003
+cube n=37 target=21 mask=0 outcome=SAT nodes=612
+target n=37 k=21 outcome=SAT cubes=1 fixed_conflict=0 nodes=612 splits=315 cardinality=34 prefix=2 clique=260 clique_prefix=0 accepts=1 seconds=0.000
+level n=37 a=21 with_n=21 without_n=20 status=required triples=9 quads=140 nodes=612 seconds=0.000 elapsed=0.003
+cube n=38 target=22 mask=0 outcome=UNSAT nodes=17773
+target n=38 k=22 outcome=UNSAT cubes=1 fixed_conflict=0 nodes=17773 splits=8886 cardinality=82 prefix=923 clique=7855 clique_prefix=27 accepts=0 seconds=0.001
+cube n=38 target=21 mask=0 outcome=SAT nodes=122
+target n=38 k=21 outcome=SAT cubes=1 fixed_conflict=0 nodes=122 splits=70 cardinality=10 prefix=0 clique=41 clique_prefix=0 accepts=1 seconds=0.000
+level n=38 a=21 with_n=21 without_n=21 status=optional triples=9 quads=151 nodes=17895 seconds=0.001 elapsed=0.005
+cube n=39 target=22 mask=0 outcome=SAT nodes=26029
+target n=39 k=22 outcome=SAT cubes=1 fixed_conflict=0 nodes=26029 splits=13024 cardinality=246 prefix=1108 clique=11603 clique_prefix=47 accepts=1 seconds=0.002
+level n=39 a=22 with_n=22 without_n=21 status=required triples=9 quads=162 nodes=26029 seconds=0.002 elapsed=0.006
+cube n=40 target=23 mask=0 outcome=UNSAT nodes=26681
+target n=40 k=23 outcome=UNSAT cubes=1 fixed_conflict=0 nodes=26681 splits=13340 cardinality=157 prefix=1558 clique=11574 clique_prefix=52 accepts=0 seconds=0.002
+cube n=40 target=22 mask=0 outcome=SAT nodes=1899
+target n=40 k=22 outcome=SAT cubes=1 fixed_conflict=0 nodes=1899 splits=959 cardinality=64 prefix=1 clique=874 clique_prefix=0 accepts=1 seconds=0.000
+level n=40 a=22 with_n=22 without_n=22 status=optional triples=9 quads=171 nodes=28580 seconds=0.002 elapsed=0.008
+cube n=41 target=23 mask=0 outcome=UNSAT nodes=77423
+target n=41 k=23 outcome=UNSAT cubes=1 fixed_conflict=0 nodes=77423 splits=38711 cardinality=451 prefix=4169 clique=33902 clique_prefix=190 accepts=0 seconds=0.005
+cube n=41 target=22 mask=0 outcome=SAT nodes=419
+target n=41 k=22 outcome=SAT cubes=1 fixed_conflict=0 nodes=419 splits=219 cardinality=20 prefix=0 clique=179 clique_prefix=0 accepts=1 seconds=0.000
+level n=41 a=22 with_n=22 without_n=22 status=optional triples=10 quads=185 nodes=77842 seconds=0.005 elapsed=0.013
+cube n=42 target=23 mask=0 outcome=UNSAT nodes=237231
+target n=42 k=23 outcome=UNSAT cubes=1 fixed_conflict=0 nodes=237231 splits=118615 cardinality=1729 prefix=12138 clique=104226 clique_prefix=523 accepts=0 seconds=0.017
+cube n=42 target=22 mask=0 outcome=SAT nodes=85
+target n=42 k=22 outcome=SAT cubes=1 fixed_conflict=0 nodes=85 splits=52 cardinality=2 prefix=0 clique=30 clique_prefix=0 accepts=1 seconds=0.000
+level n=42 a=22 with_n=22 without_n=22 status=optional triples=11 quads=194 nodes=237316 seconds=0.017 elapsed=0.030
+cube n=43 target=23 mask=0 outcome=SAT nodes=46976
+target n=43 k=23 outcome=SAT cubes=1 fixed_conflict=0 nodes=46976 splits=23498 cardinality=853 prefix=788 clique=21792 clique_prefix=44 accepts=1 seconds=0.003
+level n=43 a=23 with_n=23 without_n=22 status=required triples=11 quads=210 nodes=46976 seconds=0.003 elapsed=0.032
+cube n=44 target=24 mask=0 outcome=SAT nodes=155115
+target n=44 k=24 outcome=SAT cubes=1 fixed_conflict=0 nodes=155115 splits=77568 cardinality=1237 prefix=7789 clique=68243 clique_prefix=277 accepts=1 seconds=0.010
+level n=44 a=24 with_n=24 without_n=23 status=required triples=11 quads=223 nodes=155115 seconds=0.010 elapsed=0.043
+cube n=45 target=25 mask=0 outcome=UNSAT nodes=68909
+target n=45 k=25 outcome=UNSAT cubes=1 fixed_conflict=0 nodes=68909 splits=34454 cardinality=185 prefix=3662 clique=30432 clique_prefix=176 accepts=0 seconds=0.006
+cube n=45 target=24 mask=0 outcome=SAT nodes=4263
+target n=45 k=24 outcome=SAT cubes=1 fixed_conflict=0 nodes=4263 splits=2142 cardinality=51 prefix=2 clique=2067 clique_prefix=0 accepts=1 seconds=0.000
+level n=45 a=24 with_n=24 without_n=24 status=optional triples=11 quads=233 nodes=73172 seconds=0.006 elapsed=0.049
+cube n=46 target=25 mask=0 outcome=UNSAT nodes=250973
+target n=46 k=25 outcome=UNSAT cubes=1 fixed_conflict=0 nodes=250973 splits=125486 cardinality=950 prefix=11714 clique=112396 clique_prefix=427 accepts=0 seconds=0.021
+cube n=46 target=24 mask=0 outcome=SAT nodes=10295
+target n=46 k=24 outcome=SAT cubes=1 fixed_conflict=0 nodes=10295 splits=5158 cardinality=239 prefix=13 clique=4884 clique_prefix=0 accepts=1 seconds=0.001
+level n=46 a=24 with_n=24 without_n=24 status=optional triples=12 quads=247 nodes=261268 seconds=0.021 elapsed=0.070
+cube n=47 target=25 mask=0 outcome=UNSAT nodes=964671
+target n=47 k=25 outcome=UNSAT cubes=1 fixed_conflict=0 nodes=964671 splits=482335 cardinality=12618 prefix=47277 clique=419171 clique_prefix=3270 accepts=0 seconds=0.066
+cube n=47 target=24 mask=0 outcome=SAT nodes=569
+target n=47 k=24 outcome=SAT cubes=1 fixed_conflict=0 nodes=569 splits=295 cardinality=97 prefix=0 clique=176 clique_prefix=0 accepts=1 seconds=0.000
+level n=47 a=24 with_n=24 without_n=24 status=optional triples=13 quads=264 nodes=965240 seconds=0.066 elapsed=0.136
+cube n=48 target=25 mask=0 outcome=SAT nodes=21488
+target n=48 k=25 outcome=SAT cubes=1 fixed_conflict=0 nodes=21488 splits=10755 cardinality=156 prefix=4 clique=10571 clique_prefix=1 accepts=1 seconds=0.002
+level n=48 a=25 with_n=25 without_n=24 status=required triples=13 quads=277 nodes=21488 seconds=0.002 elapsed=0.137
+cube n=49 target=26 mask=0 outcome=UNSAT nodes=445721
+target n=49 k=26 outcome=UNSAT cubes=1 fixed_conflict=0 nodes=445721 splits=222860 cardinality=879 prefix=21188 clique=199454 clique_prefix=1340 accepts=0 seconds=0.034
+cube n=49 target=25 mask=0 outcome=SAT nodes=48
+target n=49 k=25 outcome=SAT cubes=1 fixed_conflict=0 nodes=48 splits=35 cardinality=5 prefix=0 clique=7 clique_prefix=0 accepts=1 seconds=0.000
+level n=49 a=25 with_n=25 without_n=25 status=optional triples=15 quads=293 nodes=445769 seconds=0.034 elapsed=0.171
+cube n=50 target=26 mask=0 outcome=SAT nodes=134033
+target n=50 k=26 outcome=SAT cubes=1 fixed_conflict=0 nodes=134033 splits=67028 cardinality=258 prefix=960 clique=65699 clique_prefix=87 accepts=1 seconds=0.010
+level n=50 a=26 with_n=26 without_n=25 status=required triples=15 quads=308 nodes=134033 seconds=0.010 elapsed=0.182
+cube n=51 target=27 mask=0 outcome=UNSAT nodes=477949
+target n=51 k=27 outcome=UNSAT cubes=1 fixed_conflict=0 nodes=477949 splits=238974 cardinality=517 prefix=17486 clique=219713 clique_prefix=1259 accepts=0 seconds=0.038
+cube n=51 target=26 mask=0 outcome=SAT nodes=6251
+target n=51 k=26 outcome=SAT cubes=1 fixed_conflict=0 nodes=6251 splits=3137 cardinality=69 prefix=2 clique=3042 clique_prefix=0 accepts=1 seconds=0.000
+level n=51 a=26 with_n=26 without_n=26 status=optional triples=16 quads=323 nodes=484200 seconds=0.038 elapsed=0.220
+cube n=52 target=27 mask=0 outcome=SAT nodes=1442342
+target n=52 k=27 outcome=SAT cubes=1 fixed_conflict=0 nodes=1442342 splits=721183 cardinality=3829 prefix=60082 clique=652981 clique_prefix=4266 accepts=1 seconds=0.113
+level n=52 a=27 with_n=27 without_n=26 status=required triples=16 quads=338 nodes=1442342 seconds=0.113 elapsed=0.333
+cube n=53 target=28 mask=0 outcome=UNSAT nodes=574005
+target n=53 k=28 outcome=UNSAT cubes=1 fixed_conflict=0 nodes=574005 splits=287002 cardinality=387 prefix=17553 clique=266960 clique_prefix=2103 accepts=0 seconds=0.055
+cube n=53 target=27 mask=0 outcome=SAT nodes=426380
+target n=53 k=27 outcome=SAT cubes=1 fixed_conflict=0 nodes=426380 splits=213202 cardinality=560 prefix=7606 clique=203446 clique_prefix=1565 accepts=1 seconds=0.036
+level n=53 a=27 with_n=27 without_n=27 status=optional triples=16 quads=360 nodes=1000385 seconds=0.091 elapsed=0.424
+cube n=54 target=28 mask=0 outcome=UNSAT nodes=2187983
+target n=54 k=28 outcome=UNSAT cubes=1 fixed_conflict=0 nodes=2187983 splits=1093991 cardinality=2536 prefix=82524 clique=999847 clique_prefix=9085 accepts=0 seconds=0.182
+cube n=54 target=27 mask=0 outcome=SAT nodes=153118
+target n=54 k=27 outcome=SAT cubes=1 fixed_conflict=0 nodes=153118 splits=76571 cardinality=679 prefix=782 clique=74437 clique_prefix=648 accepts=1 seconds=0.011
+level n=54 a=27 with_n=27 without_n=27 status=optional triples=16 quads=376 nodes=2341101 seconds=0.193 elapsed=0.617
+cube n=55 target=28 mask=0 outcome=UNSAT nodes=9620973
+target n=55 k=28 outcome=UNSAT cubes=1 fixed_conflict=0 nodes=9620973 splits=4810486 cardinality=29837 prefix=428173 clique=4313771 clique_prefix=38706 accepts=0 seconds=0.736
+cube n=55 target=27 mask=0 outcome=SAT nodes=90
+target n=55 k=27 outcome=SAT cubes=1 fixed_conflict=0 nodes=90 splits=57 cardinality=0 prefix=0 clique=32 clique_prefix=0 accepts=1 seconds=0.000
+level n=55 a=27 with_n=27 without_n=27 status=optional triples=16 quads=392 nodes=9621063 seconds=0.736 elapsed=1.353
+cube n=56 target=28 mask=0 outcome=SAT nodes=361045
+target n=56 k=28 outcome=SAT cubes=1 fixed_conflict=0 nodes=361045 splits=180535 cardinality=3320 prefix=2929 clique=173423 clique_prefix=837 accepts=1 seconds=0.025
+level n=56 a=28 with_n=28 without_n=27 status=required triples=17 quads=407 nodes=361045 seconds=0.025 elapsed=1.378
+cube n=57 target=29 mask=0 outcome=UNSAT nodes=5850593
+target n=57 k=29 outcome=UNSAT cubes=1 fixed_conflict=0 nodes=5850593 splits=2925296 cardinality=7640 prefix=194448 clique=2700553 clique_prefix=22656 accepts=0 seconds=0.509
+cube n=57 target=28 mask=0 outcome=SAT nodes=697843
+target n=57 k=28 outcome=SAT cubes=1 fixed_conflict=0 nodes=697843 splits=348934 cardinality=3202 prefix=2504 clique=341989 clique_prefix=1213 accepts=1 seconds=0.054
+level n=57 a=28 with_n=28 without_n=28 status=optional triples=17 quads=425 nodes=6548436 seconds=0.563 elapsed=1.941
+cube n=58 target=29 mask=0 outcome=SAT nodes=11912362
+target n=58 k=29 outcome=SAT cubes=1 fixed_conflict=0 nodes=11912362 splits=5956194 cardinality=16162 prefix=336860 clique=5543047 clique_prefix=60098 accepts=1 seconds=0.973
+level n=58 a=29 with_n=29 without_n=28 status=required triples=17 quads=444 nodes=11912362 seconds=0.973 elapsed=2.914
+cube n=59 target=30 mask=0 outcome=UNSAT nodes=4274163
+target n=59 k=30 outcome=UNSAT cubes=1 fixed_conflict=0 nodes=4274163 splits=2137081 cardinality=1914 prefix=115049 clique=2001190 clique_prefix=18929 accepts=0 seconds=0.396
+cube n=59 target=29 mask=0 outcome=SAT nodes=81136
+target n=59 k=29 outcome=SAT cubes=1 fixed_conflict=0 nodes=81136 splits=40581 cardinality=480 prefix=8 clique=40039 clique_prefix=27 accepts=1 seconds=0.007
+level n=59 a=29 with_n=29 without_n=29 status=optional triples=17 quads=468 nodes=4355299 seconds=0.403 elapsed=3.317
+cube n=60 target=30 mask=0 outcome=UNSAT nodes=18730429
+target n=60 k=30 outcome=UNSAT cubes=1 fixed_conflict=0 nodes=18730429 splits=9365214 cardinality=8131 prefix=475406 clique=8811307 clique_prefix=70371 accepts=0 seconds=1.769
+cube n=60 target=29 mask=0 outcome=SAT nodes=38
+target n=60 k=29 outcome=SAT cubes=1 fixed_conflict=0 nodes=38 splits=32 cardinality=3 prefix=0 clique=2 clique_prefix=0 accepts=1 seconds=0.000
+level n=60 a=29 with_n=29 without_n=29 status=optional triples=17 quads=484 nodes=18730467 seconds=1.769 elapsed=5.086
+cube n=61 target=30 mask=0 outcome=SAT nodes=98843
+target n=61 k=30 outcome=SAT cubes=1 fixed_conflict=0 nodes=98843 splits=49435 cardinality=101 prefix=0 clique=49295 clique_prefix=11 accepts=1 seconds=0.009
+level n=61 a=30 with_n=30 without_n=29 status=required triples=17 quads=509 nodes=98843 seconds=0.009 elapsed=5.095
+cube n=62 target=31 mask=0 outcome=UNSAT nodes=11682961
+target n=62 k=31 outcome=UNSAT cubes=1 fixed_conflict=0 nodes=11682961 splits=5841480 cardinality=4481 prefix=321913 clique=5471896 clique_prefix=43191 accepts=0 seconds=1.132
+cube n=62 target=30 mask=0 outcome=SAT nodes=33
+target n=62 k=30 outcome=SAT cubes=1 fixed_conflict=0 nodes=33 splits=30 cardinality=2 prefix=0 clique=0 clique_prefix=0 accepts=1 seconds=0.000
+level n=62 a=30 with_n=30 without_n=30 status=optional triples=18 quads=533 nodes=11682994 seconds=1.132 elapsed=6.227
+cube n=63 target=31 mask=0 outcome=UNSAT nodes=43371833
+target n=63 k=31 outcome=UNSAT cubes=1 fixed_conflict=0 nodes=43371833 splits=21685916 cardinality=24266 prefix=1239967 clique=20235768 clique_prefix=185916 accepts=0 seconds=4.219
+cube n=63 target=30 mask=0 outcome=SAT nodes=41
+target n=63 k=30 outcome=SAT cubes=1 fixed_conflict=0 nodes=41 splits=34 cardinality=1 prefix=0 clique=5 clique_prefix=0 accepts=1 seconds=0.000
+level n=63 a=30 with_n=30 without_n=30 status=optional triples=19 quads=553 nodes=43371874 seconds=4.219 elapsed=10.447
+cube n=64 target=31 mask=0 outcome=SAT nodes=32385250
+target n=64 k=31 outcome=SAT cubes=1 fixed_conflict=0 nodes=32385250 splits=16192639 cardinality=21452 prefix=872009 clique=15162350 clique_prefix=136799 accepts=1 seconds=2.999
+level n=64 a=31 with_n=31 without_n=30 status=required triples=19 quads=575 nodes=32385250 seconds=2.999 elapsed=13.445
+cube n=65 target=32 mask=0 outcome=UNSAT nodes=39240897
+target n=65 k=32 outcome=UNSAT cubes=1 fixed_conflict=0 nodes=39240897 splits=19620448 cardinality=12349 prefix=1117531 clique=18283224 clique_prefix=207345 accepts=0 seconds=4.095
+cube n=65 target=31 mask=0 outcome=SAT nodes=26776164
+target n=65 k=31 outcome=SAT cubes=1 fixed_conflict=0 nodes=26776164 splits=13388096 cardinality=70146 prefix=541926 clique=12575093 clique_prefix=200902 accepts=1 seconds=2.387
+level n=65 a=31 with_n=31 without_n=31 status=optional triples=19 quads=595 nodes=66017061 seconds=6.483 elapsed=19.928
+progress pid=28696 n=66 target=32 cube=1 target_nodes=98566144 elapsed=30.099
+cube n=66 target=32 mask=1 outcome=UNSAT nodes=125420431
+cube n=66 target=32 mask=0 outcome=UNSAT nodes=32910369
+target n=66 k=32 outcome=UNSAT cubes=2 fixed_conflict=0 nodes=158330800 splits=79165399 cardinality=98530 prefix=4419280 clique=73935676 clique_prefix=711915 accepts=0 seconds=16.863
+cube n=66 target=31 mask=1 outcome=SAT nodes=191209
+target n=66 k=31 outcome=SAT cubes=1 fixed_conflict=0 nodes=191209 splits=95618 cardinality=1535 prefix=13 clique=93915 clique_prefix=127 accepts=1 seconds=0.016
+level n=66 a=31 with_n=31 without_n=31 status=optional triples=19 quads=614 nodes=158522009 seconds=16.879 elapsed=36.808
+cube n=67 target=32 mask=3 outcome=SAT nodes=36494255
+target n=67 k=32 outcome=SAT cubes=1 fixed_conflict=0 nodes=36494255 splits=18247141 cardinality=47245 prefix=742187 clique=17273545 clique_prefix=184136 accepts=1 seconds=3.725
+level n=67 a=32 with_n=32 without_n=31 status=required triples=19 quads=642 nodes=36494255 seconds=3.725 elapsed=40.533
+cube n=68 target=33 mask=7 outcome=UNSAT nodes=24353849
+cube n=68 target=33 mask=6 outcome=UNSAT nodes=19994699
+cube n=68 target=33 mask=5 outcome=UNSAT nodes=19680487
+cube n=68 target=33 mask=4 outcome=UNSAT nodes=9511487
+cube n=68 target=33 mask=3 outcome=UNSAT nodes=30983291
+cube n=68 target=33 mask=2 outcome=UNSAT nodes=10051303
+cube n=68 target=33 mask=1 outcome=UNSAT nodes=10993689
+cube n=68 target=33 mask=0 outcome=UNSAT nodes=1
+target n=68 k=33 outcome=UNSAT cubes=8 fixed_conflict=0 nodes=125568806 splits=62784399 cardinality=20398 prefix=3109769 clique=59246574 clique_prefix=407666 accepts=0 seconds=15.443
+cube n=68 target=32 mask=7 outcome=SAT nodes=684544
+target n=68 k=32 outcome=SAT cubes=1 fixed_conflict=0 nodes=684544 splits=342285 cardinality=1411 prefix=50 clique=340654 clique_prefix=143 accepts=1 seconds=0.074
+level n=68 a=32 with_n=32 without_n=32 status=optional triples=20 quads=666 nodes=126253350 seconds=15.517 elapsed=56.050
+cube n=69 target=33 mask=15 outcome=UNSAT nodes=21094191
+progress pid=28696 n=69 target=33 cube=14 target_nodes=34603008 elapsed=60.125
+cube n=69 target=33 mask=14 outcome=UNSAT nodes=19200525
+cube n=69 target=33 mask=13 outcome=UNSAT nodes=23824583
+cube n=69 target=33 mask=12 outcome=UNSAT nodes=18001581
+cube n=69 target=33 mask=11 outcome=UNSAT nodes=29436071
+cube n=69 target=33 mask=10 outcome=UNSAT nodes=17385947
+cube n=69 target=33 mask=9 outcome=UNSAT nodes=23627389
+cube n=69 target=33 mask=8 outcome=UNSAT nodes=7570021
+cube n=69 target=33 mask=7 outcome=UNSAT nodes=25736631
+cube n=69 target=33 mask=6 outcome=UNSAT nodes=15368657
+cube n=69 target=33 mask=5 outcome=UNSAT nodes=23426925
+cube n=69 target=33 mask=4 outcome=UNSAT nodes=6857111
+cube n=69 target=33 mask=3 outcome=UNSAT nodes=28276631
+progress pid=28696 n=69 target=33 cube=2 target_nodes=263192576 elapsed=90.187
+cube n=69 target=33 mask=2 outcome=UNSAT nodes=6446949
+cube n=69 target=33 mask=1 outcome=UNSAT nodes=10638551
+cube n=69 target=33 mask=0 outcome=UNSAT nodes=1
+target n=69 k=33 outcome=UNSAT cubes=16 fixed_conflict=0 nodes=276891764 splits=138445874 cardinality=66934 prefix=7354288 clique=130153446 clique_prefix=871222 accepts=0 seconds=37.725
+cube n=69 target=32 mask=15 outcome=SAT nodes=354447
+target n=69 k=32 outcome=SAT cubes=1 fixed_conflict=0 nodes=354447 splits=177236 cardinality=763 prefix=7 clique=176398 clique_prefix=42 accepts=1 seconds=0.037
+level n=69 a=32 with_n=32 without_n=32 status=optional triples=21 quads=691 nodes=277246211 seconds=37.763 elapsed=93.812
+cube n=70 target=33 mask=31 outcome=UNSAT nodes=22441701
+cube n=70 target=33 mask=30 outcome=UNSAT nodes=29250763
+cube n=70 target=33 mask=29 outcome=SAT nodes=1844064
+target n=70 k=33 outcome=SAT cubes=3 fixed_conflict=0 nodes=53536528 splits=26768276 cardinality=33905 prefix=785647 clique=25794901 clique_prefix=153798 accepts=1 seconds=6.457
+level n=70 a=33 with_n=33 without_n=32 status=required triples=22 quads=711 nodes=53536528 seconds=6.457 elapsed=100.273
+cube n=71 target=34 mask=63 outcome=UNSAT nodes=4076665
+cube n=71 target=34 mask=62 outcome=UNSAT nodes=6464143
+cube n=71 target=34 mask=61 outcome=UNSAT nodes=5489717
+cube n=71 target=34 mask=60 outcome=UNSAT nodes=6546287
+cube n=71 target=34 mask=59 outcome=UNSAT nodes=7520057
+cube n=71 target=34 mask=58 outcome=UNSAT nodes=6653907
+cube n=71 target=34 mask=57 outcome=UNSAT nodes=6072627
+cube n=71 target=34 mask=56 outcome=UNSAT nodes=4959431
+cube n=71 target=34 mask=55 outcome=UNSAT nodes=5290589
+cube n=71 target=34 mask=54 outcome=UNSAT nodes=6608041
+cube n=71 target=34 mask=53 outcome=UNSAT nodes=5837063
+cube n=71 target=34 mask=52 outcome=UNSAT nodes=4805179
+cube n=71 target=34 mask=51 outcome=UNSAT nodes=6733605
+cube n=71 target=34 mask=50 outcome=UNSAT nodes=5120107
+cube n=71 target=34 mask=49 outcome=UNSAT nodes=4223577
+cube n=71 target=34 mask=48 outcome=UNSAT nodes=1612493
+cube n=71 target=34 mask=47 outcome=UNSAT nodes=7254885
+cube n=71 target=34 mask=46 outcome=UNSAT nodes=9536459
+cube n=71 target=34 mask=45 outcome=UNSAT nodes=6561555
+cube n=71 target=34 mask=44 outcome=UNSAT nodes=7583855
+cube n=71 target=34 mask=43 outcome=UNSAT nodes=11870069
+cube n=71 target=34 mask=42 outcome=UNSAT nodes=8962993
+cube n=71 target=34 mask=41 outcome=UNSAT nodes=6384187
+cube n=71 target=34 mask=40 outcome=UNSAT nodes=2461679
+cube n=71 target=34 mask=39 outcome=UNSAT nodes=7789745
+progress pid=28696 n=71 target=34 cube=38 target_nodes=157286400 elapsed=120.245
+cube n=71 target=34 mask=38 outcome=UNSAT nodes=7089589
+cube n=71 target=34 mask=37 outcome=UNSAT nodes=5622217
+cube n=71 target=34 mask=36 outcome=UNSAT nodes=2416351
+cube n=71 target=34 mask=35 outcome=UNSAT nodes=7959521
+cube n=71 target=34 mask=34 outcome=UNSAT nodes=2669609
+cube n=71 target=34 mask=33 outcome=UNSAT nodes=1906261
+cube n=71 target=34 mask=32 outcome=UNSAT nodes=1
+cube n=71 target=34 mask=31 outcome=UNSAT nodes=4766507
+cube n=71 target=34 mask=30 outcome=UNSAT nodes=5195829
+cube n=71 target=34 mask=29 outcome=UNSAT nodes=5351919
+cube n=71 target=34 mask=28 outcome=UNSAT nodes=4233611
+cube n=71 target=34 mask=27 outcome=UNSAT nodes=6083747
+cube n=71 target=34 mask=26 outcome=UNSAT nodes=4375605
+cube n=71 target=34 mask=25 outcome=UNSAT nodes=4269151
+cube n=71 target=34 mask=24 outcome=UNSAT nodes=1269045
+cube n=71 target=34 mask=23 outcome=UNSAT nodes=5243781
+cube n=71 target=34 mask=22 outcome=UNSAT nodes=3810395
+cube n=71 target=34 mask=21 outcome=UNSAT nodes=4536521
+cube n=71 target=34 mask=20 outcome=UNSAT nodes=1219569
+cube n=71 target=34 mask=19 outcome=UNSAT nodes=5323103
+cube n=71 target=34 mask=18 outcome=UNSAT nodes=1426199
+cube n=71 target=34 mask=17 outcome=UNSAT nodes=1557053
+cube n=71 target=34 mask=16 outcome=UNSAT nodes=1
+cube n=71 target=34 mask=15 outcome=UNSAT nodes=6025845
+cube n=71 target=34 mask=14 outcome=UNSAT nodes=5708581
+cube n=71 target=34 mask=13 outcome=UNSAT nodes=4486015
+cube n=71 target=34 mask=12 outcome=UNSAT nodes=1891051
+cube n=71 target=34 mask=11 outcome=UNSAT nodes=7122151
+cube n=71 target=34 mask=10 outcome=UNSAT nodes=2174415
+cube n=71 target=34 mask=9 outcome=UNSAT nodes=1835211
+cube n=71 target=34 mask=8 outcome=UNSAT nodes=1
+cube n=71 target=34 mask=7 outcome=UNSAT nodes=5362019
+cube n=71 target=34 mask=6 outcome=UNSAT nodes=1820029
+cube n=71 target=34 mask=5 outcome=UNSAT nodes=1802577
+cube n=71 target=34 mask=4 outcome=UNSAT nodes=1
+cube n=71 target=34 mask=3 outcome=UNSAT nodes=2470819
+cube n=71 target=34 mask=2 outcome=UNSAT nodes=1
+cube n=71 target=34 mask=1 outcome=UNSAT nodes=1
+cube n=71 target=34 mask=0 outcome=UNSAT nodes=1
+target n=71 k=34 outcome=UNSAT cubes=64 fixed_conflict=0 nodes=283443218 splits=141721577 cardinality=58405 prefix=7770826 clique=132819281 clique_prefix=1073129 accepts=0 seconds=35.448
+cube n=71 target=33 mask=63 outcome=UNSAT nodes=13196527
+cube n=71 target=33 mask=62 outcome=UNSAT nodes=24748817
+cube n=71 target=33 mask=61 outcome=UNSAT nodes=18450391
+cube n=71 target=33 mask=60 outcome=UNSAT nodes=27200685
+cube n=71 target=33 mask=59 outcome=UNSAT nodes=28153891
+cube n=71 target=33 mask=58 outcome=UNSAT nodes=28973083
+progress pid=28696 n=71 target=33 cube=57 target_nodes=145752064 elapsed=150.309
+cube n=71 target=33 mask=57 outcome=UNSAT nodes=24891181
+cube n=71 target=33 mask=56 outcome=UNSAT nodes=25343031
+cube n=71 target=33 mask=55 outcome=UNSAT nodes=18448765
+cube n=71 target=33 mask=54 outcome=UNSAT nodes=26598063
+cube n=71 target=33 mask=53 outcome=UNSAT nodes=22718937
+cube n=71 target=33 mask=52 outcome=UNSAT nodes=23569885
+cube n=71 target=33 mask=51 outcome=UNSAT nodes=27348447
+cube n=71 target=33 mask=50 outcome=UNSAT nodes=24020705
+cube n=71 target=33 mask=49 outcome=UNSAT nodes=20306857
+cube n=71 target=33 mask=48 outcome=UNSAT nodes=16478141
+cube n=71 target=33 mask=47 outcome=UNSAT nodes=24892465
+progress pid=28696 n=71 target=33 cube=46 target_nodes=412090368 elapsed=180.386
+cube n=71 target=33 mask=46 outcome=UNSAT nodes=41864147
+cube n=71 target=33 mask=45 outcome=UNSAT nodes=23894905
+cube n=71 target=33 mask=44 outcome=UNSAT nodes=36888819
+cube n=71 target=33 mask=43 outcome=SAT nodes=20399074
+target n=71 k=33 outcome=SAT cubes=21 fixed_conflict=0 nodes=518386816 splits=259193411 cardinality=622095 prefix=11780041 clique=243975393 clique_prefix=2815875 accepts=1 seconds=56.419
+level n=71 a=33 with_n=33 without_n=33 status=optional triples=23 quads=741 nodes=801830034 seconds=91.867 elapsed=192.141
+cube n=72 target=34 mask=127 outcome=UNSAT nodes=5175827
+cube n=72 target=34 mask=126 outcome=UNSAT nodes=7433991
+cube n=72 target=34 mask=125 outcome=UNSAT nodes=6602161
+cube n=72 target=34 mask=124 outcome=UNSAT nodes=9026167
+cube n=72 target=34 mask=123 outcome=UNSAT nodes=8215293
+cube n=72 target=34 mask=122 outcome=UNSAT nodes=7128259
+cube n=72 target=34 mask=121 outcome=UNSAT nodes=8090461
+cube n=72 target=34 mask=120 outcome=UNSAT nodes=7437097
+cube n=72 target=34 mask=119 outcome=UNSAT nodes=6697979
+cube n=72 target=34 mask=118 outcome=UNSAT nodes=9249687
+cube n=72 target=34 mask=117 outcome=UNSAT nodes=8983535
+cube n=72 target=34 mask=116 outcome=UNSAT nodes=8736167
+cube n=72 target=34 mask=115 outcome=UNSAT nodes=7849301
+cube n=72 target=34 mask=114 outcome=UNSAT nodes=7192569
+cube n=72 target=34 mask=113 outcome=UNSAT nodes=7576223
+cube n=72 target=34 mask=112 outcome=UNSAT nodes=5502617
+cube n=72 target=34 mask=111 outcome=UNSAT nodes=8578163
+cube n=72 target=34 mask=110 outcome=UNSAT nodes=10776337
+progress pid=28696 n=72 target=34 cube=109 target_nodes=143654912 elapsed=210.481
+cube n=72 target=34 mask=109 outcome=UNSAT nodes=7245705
+cube n=72 target=34 mask=108 outcome=UNSAT nodes=9142121
+cube n=72 target=34 mask=107 outcome=UNSAT nodes=13388375
+cube n=72 target=34 mask=106 outcome=UNSAT nodes=10029769
+cube n=72 target=34 mask=105 outcome=UNSAT nodes=9069035
+cube n=72 target=34 mask=104 outcome=UNSAT nodes=6666937
+cube n=72 target=34 mask=103 outcome=UNSAT nodes=9703201
+cube n=72 target=34 mask=102 outcome=UNSAT nodes=10863115
+cube n=72 target=34 mask=101 outcome=UNSAT nodes=8940137
+cube n=72 target=34 mask=100 outcome=UNSAT nodes=7549157
+cube n=72 target=34 mask=99 outcome=UNSAT nodes=10649719
+cube n=72 target=34 mask=98 outcome=UNSAT nodes=7933131
+cube n=72 target=34 mask=97 outcome=UNSAT nodes=6291129
+cube n=72 target=34 mask=96 outcome=UNSAT nodes=1888347
+cube n=72 target=34 mask=95 outcome=UNSAT nodes=5960143
+cube n=72 target=34 mask=94 outcome=UNSAT nodes=6973505
+cube n=72 target=34 mask=93 outcome=UNSAT nodes=6610853
+cube n=72 target=34 mask=92 outcome=UNSAT nodes=6946867
+cube n=72 target=34 mask=91 outcome=UNSAT nodes=7238203
+cube n=72 target=34 mask=90 outcome=UNSAT nodes=6032311
+cube n=72 target=34 mask=89 outcome=UNSAT nodes=6233595
+cube n=72 target=34 mask=88 outcome=UNSAT nodes=4432857
+cube n=72 target=34 mask=87 outcome=UNSAT nodes=6922017
+cube n=72 target=34 mask=86 outcome=UNSAT nodes=6132877
+cube n=72 target=34 mask=85 outcome=UNSAT nodes=7321151
+cube n=72 target=34 mask=84 outcome=UNSAT nodes=4708069
+progress pid=28696 n=72 target=34 cube=83 target_nodes=341835776 elapsed=240.491
+cube n=72 target=34 mask=83 outcome=UNSAT nodes=7375585
+cube n=72 target=34 mask=82 outcome=UNSAT nodes=4461233
+cube n=72 target=34 mask=81 outcome=UNSAT nodes=5206801
+cube n=72 target=34 mask=80 outcome=UNSAT nodes=1332957
+cube n=72 target=34 mask=79 outcome=UNSAT nodes=7260643
+cube n=72 target=34 mask=78 outcome=UNSAT nodes=8058587
+cube n=72 target=34 mask=77 outcome=UNSAT nodes=5602651
+cube n=72 target=34 mask=76 outcome=UNSAT nodes=5211519
+cube n=72 target=34 mask=75 outcome=UNSAT nodes=9321655
+cube n=72 target=34 mask=74 outcome=UNSAT nodes=6414889
+cube n=72 target=34 mask=73 outcome=UNSAT nodes=5600313
+cube n=72 target=34 mask=72 outcome=UNSAT nodes=1751833
+cube n=72 target=34 mask=71 outcome=UNSAT nodes=7196607
+cube n=72 target=34 mask=70 outcome=UNSAT nodes=6009633
+cube n=72 target=34 mask=69 outcome=UNSAT nodes=4991215
+cube n=72 target=34 mask=68 outcome=UNSAT nodes=1675481
+cube n=72 target=34 mask=67 outcome=UNSAT nodes=7243683
+cube n=72 target=34 mask=66 outcome=UNSAT nodes=2011499
+cube n=72 target=34 mask=65 outcome=UNSAT nodes=1712465
+cube n=72 target=34 mask=64 outcome=UNSAT nodes=1
+cube n=72 target=34 mask=63 outcome=UNSAT nodes=8761519
+cube n=72 target=34 mask=62 outcome=UNSAT nodes=9995577
+cube n=72 target=34 mask=61 outcome=UNSAT nodes=11934029
+cube n=72 target=34 mask=60 outcome=UNSAT nodes=12893233
+cube n=72 target=34 mask=59 outcome=UNSAT nodes=14273101
+cube n=72 target=34 mask=58 outcome=UNSAT nodes=9999133
+progress pid=28696 n=72 target=34 cube=57 target_nodes=512753664 elapsed=270.674
+cube n=72 target=34 mask=57 outcome=UNSAT nodes=13997661
+cube n=72 target=34 mask=56 outcome=UNSAT nodes=9762603
+cube n=72 target=34 mask=55 outcome=UNSAT nodes=13998113
+cube n=72 target=34 mask=54 outcome=UNSAT nodes=11830655
+cube n=72 target=34 mask=53 outcome=UNSAT nodes=16709407
+cube n=72 target=34 mask=52 outcome=UNSAT nodes=11405361
+cube n=72 target=34 mask=51 outcome=UNSAT nodes=14319705
+cube n=72 target=34 mask=50 outcome=UNSAT nodes=8387035
+cube n=72 target=34 mask=49 outcome=UNSAT nodes=12376923
+cube n=72 target=34 mask=48 outcome=UNSAT nodes=3774657
+cube n=72 target=34 mask=47 outcome=UNSAT nodes=11594469
+cube n=72 target=34 mask=46 outcome=UNSAT nodes=10598029
+cube n=72 target=34 mask=45 outcome=UNSAT nodes=10043557
+cube n=72 target=34 mask=44 outcome=UNSAT nodes=9470335
+cube n=72 target=34 mask=43 outcome=UNSAT nodes=15159529
+progress pid=28696 n=72 target=34 cube=42 target_nodes=677380096 elapsed=300.735
+cube n=72 target=34 mask=42 outcome=UNSAT nodes=9307881
+cube n=72 target=34 mask=41 outcome=UNSAT nodes=10440523
+cube n=72 target=34 mask=40 outcome=UNSAT nodes=4184337
+cube n=72 target=34 mask=39 outcome=UNSAT nodes=15876823
+cube n=72 target=34 mask=38 outcome=UNSAT nodes=10764761
+cube n=72 target=34 mask=37 outcome=UNSAT nodes=12984057
+cube n=72 target=34 mask=36 outcome=UNSAT nodes=5323079
+cube n=72 target=34 mask=35 outcome=UNSAT nodes=13127053
+cube n=72 target=34 mask=34 outcome=UNSAT nodes=4112861
+cube n=72 target=34 mask=33 outcome=UNSAT nodes=5188505
+cube n=72 target=34 mask=32 outcome=UNSAT nodes=1
+cube n=72 target=34 mask=31 outcome=UNSAT nodes=8346129
+cube n=72 target=34 mask=30 outcome=UNSAT nodes=7184299
+cube n=72 target=34 mask=29 outcome=UNSAT nodes=9645051
+cube n=72 target=34 mask=28 outcome=UNSAT nodes=7186563
+cube n=72 target=34 mask=27 outcome=UNSAT nodes=11024483
+cube n=72 target=34 mask=26 outcome=UNSAT nodes=6510575
+cube n=72 target=34 mask=25 outcome=UNSAT nodes=9128921
+cube n=72 target=34 mask=24 outcome=UNSAT nodes=2878735
+progress pid=28696 n=72 target=34 cube=23 target_nodes=835715072 elapsed=330.745
+cube n=72 target=34 mask=23 outcome=UNSAT nodes=10375711
+cube n=72 target=34 mask=22 outcome=UNSAT nodes=6380761
+cube n=72 target=34 mask=21 outcome=UNSAT nodes=10081697
+cube n=72 target=34 mask=20 outcome=UNSAT nodes=2965653
+cube n=72 target=34 mask=19 outcome=UNSAT nodes=10102169
+cube n=72 target=34 mask=18 outcome=UNSAT nodes=2482095
+cube n=72 target=34 mask=17 outcome=UNSAT nodes=4101337
+cube n=72 target=34 mask=16 outcome=UNSAT nodes=1
+cube n=72 target=34 mask=15 outcome=UNSAT nodes=8781869
+cube n=72 target=34 mask=14 outcome=UNSAT nodes=6528561
+cube n=72 target=34 mask=13 outcome=UNSAT nodes=6453815
+cube n=72 target=34 mask=12 outcome=UNSAT nodes=2770841
+cube n=72 target=34 mask=11 outcome=UNSAT nodes=10030939
+cube n=72 target=34 mask=10 outcome=UNSAT nodes=3078825
+cube n=72 target=34 mask=9 outcome=UNSAT nodes=3687795
+cube n=72 target=34 mask=8 outcome=UNSAT nodes=1
+cube n=72 target=34 mask=7 outcome=UNSAT nodes=9480295
+cube n=72 target=34 mask=6 outcome=UNSAT nodes=3142199
+cube n=72 target=34 mask=5 outcome=UNSAT nodes=4090039
+cube n=72 target=34 mask=4 outcome=UNSAT nodes=1
+cube n=72 target=34 mask=3 outcome=UNSAT nodes=4340219
+cube n=72 target=34 mask=2 outcome=UNSAT nodes=1
+cube n=72 target=34 mask=1 outcome=UNSAT nodes=1
+cube n=72 target=34 mask=0 outcome=UNSAT nodes=1
+target n=72 k=34 outcome=UNSAT cubes=128 fixed_conflict=0 nodes=936937504 splits=468468688 cardinality=192327 prefix=23224838 clique=441914562 clique_prefix=3137089 accepts=0 seconds=160.251
+cube n=72 target=33 mask=127 outcome=SAT nodes=4072643
+target n=72 k=33 outcome=SAT cubes=1 fixed_conflict=0 nodes=4072643 splits=2036333 cardinality=7940 prefix=920 clique=2025403 clique_prefix=2046 accepts=1 seconds=0.667
+level n=72 a=33 with_n=33 without_n=33 status=optional triples=23 quads=762 nodes=941010147 seconds=160.917 elapsed=353.058
+finished through=72 elapsed=353.058
